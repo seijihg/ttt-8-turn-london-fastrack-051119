@@ -32,6 +32,7 @@ def valid_move?(board, index)
 end
 
 def turn(board)
+<<<<<<< HEAD
   
   puts "Please enter 1-9:"
   user_input = gets.chomp
@@ -46,5 +47,10 @@ def turn(board)
   end
   
   display_board(board)
+=======
+  puts "Please enter 1-9:"
+  user_input = gets.chomp
+  input_to_index(user_input)
+>>>>>>> b700d8f365ada738d23f585f8191c0801d6481a5
  
 end
